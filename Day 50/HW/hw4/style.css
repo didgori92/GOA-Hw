@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(25, 161, 173);
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.pattern {
+    width: 500px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.profile {
+    border: 5px white solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 410px;
+    top: 265px;
+}
+
+.victor {
+    margin-top: 60px;
+    padding-left: 170px;
+}
+
+.p1 {
+    padding-left: 225px;
+}
+
+.followers {
+    position: absolute;
+    left: 300px;
+    top: 530px;
+}
+
+.likes {
+    position: absolute;
+    left: 420px;
+    top: 530px;
+}
+
+.photos {
+    position: relative;
+    left: 370px;
+    top: -11px;    
+}
+
+.p2 {
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+.p3 {
+    position: relative;
+    left: 240px;
+    top: -50px;    
+}
+
+.p4 {
+    position: relative;
+    left: 380px;
+    top: -80px;
+}
